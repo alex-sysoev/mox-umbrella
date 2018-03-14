@@ -30,7 +30,7 @@ defmodule App1.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mox, "~> 0.3", only: :test}
+      {:mox, github: "plataformatec/mox", only: :test}
     ]
   end
 end
